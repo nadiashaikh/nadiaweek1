@@ -1,0 +1,6 @@
+#! /bin/bash
+sudo addgroup dev_group
+sudo adduser coder
+sudo usermod -aG dev_group coder
+touch run.sh
+vim run.sh
