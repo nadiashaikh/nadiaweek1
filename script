@@ -4,3 +4,8 @@ sudo adduser coder
 sudo usermod -aG dev_group coder
 touch run.sh
 vim run.sh
+echo "echo test done"
+chmod 774 run.sh
+su coder
+ls -l
+-/run.sh
